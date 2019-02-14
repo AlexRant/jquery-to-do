@@ -1,1 +1,1 @@
-# jquery-to-do
+# jquery animated-to-do
