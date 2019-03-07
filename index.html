@@ -6,20 +6,30 @@
 	<link rel="stylesheet" href="assets/css/todos.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 	<script type="text/javascript" src="assets/js/lib/jquery-3.2.1.min.js"></script>
 </head>
 <body>
+	<section>
+		<div class="row mt-5">
+			<div class="col-9 mx-auto col-md-6 col-lg-4">
+				<div class="header">
+					<p>To-Do List <i class="fa fa-plus"></i></p>
+				</div>
+				<div class="input mb-1">
+					<input type="text" placeholder="Add New Todo">
+				</div>
+				<div class="content">
+					<ul>
+						<li><span><i class="fa fa-trash"></i></span> Go Shopping</li>
+						<li><span><i class="fa fa-trash"></i></span> Buy Milk</li>
+						<li><span><i class="fa fa-trash"></i></span> Buy Bread</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
 
-<div id="container">
-	<h1>To-Do List <i class="fa fa-plus"></i></h1>
-	<input type="text" placeholder="Add New Todo">
-
-	<ul>
-		<li><span><i class="fa fa-trash"></i></span> Go Shopping</li>
-		<li><span><i class="fa fa-trash"></i></span> Buy Milk</li>
-		<li><span><i class="fa fa-trash"></i></span> Buy Bread</li>
-	</ul>
-</div>
 
 <script type="text/javascript" src="assets/js/todos.js"></script>	
 </body>
